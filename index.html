@@ -1,114 +1,114 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Ivan Kuzin personal page</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic"
-      rel="stylesheet"
-    />
-    <style>
-      *,
-      *::before,
-      *::after {
-        box-sizing: border-box;
-      }
 
-      body {
-        margin: 0;
-        font-family: "Roboto", sans-serif;
-        font-size: 18px;
-        line-height: 1.8;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <title>Ivan Kuzin personal page</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet" />
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
 
-      .page {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        height: 100vh;
-        max-width: 750px;
-        margin: 0 auto;
-        padding: 50px 30px;
-      }
+    body {
+      margin: 0;
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
+      line-height: 1.8;
+    }
 
-      .page__header {
-        margin-bottom: 30px;
-      }
+    .page {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 100vh;
+      max-width: 750px;
+      margin: 0 auto;
+      padding: 50px 30px;
+    }
 
-      .page__header .photo {
-        width: 300px;
-        height: 300px;
-        border-radius: 50%;
-        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
-        overflow: hidden;
-      }
+    .page__header {
+      margin-bottom: 30px;
+    }
 
-      .page__header .photo img {
-        width: 420px;
-        margin-left: -51px;
-      }
+    .page__header .photo {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+      overflow: hidden;
+    }
 
-      .page__header .title {
-        text-align: center;
-        margin-top: 40px;
-        line-height: 1.2;
-      }
+    .page__header .photo img {
+      width: 420px;
+      margin-left: -51px;
+    }
 
-      h1 {
-        font-weight: 700;
-        font-size: 50px;
-        margin-bottom: 10px;
-      }
+    .page__header .title {
+      text-align: center;
+      margin-top: 40px;
+      line-height: 1.2;
+    }
 
-      .title__occupation {
-        font-size: 21px;
-      }
+    h1 {
+      font-weight: 700;
+      font-size: 50px;
+      margin-bottom: 10px;
+    }
 
-      .page__body {
-        margin-bottom: 50px;
-      }
+    .title__occupation {
+      font-size: 21px;
+    }
 
-      .page__footer {
-          text-align: center;
-          font-weight: 500;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="page">
-      <div class="page__header">
-        <div class="photo">
-          <img src="photo.jpg" alt="here we are" />
-        </div>
-        <div class="title">
-          <h1>Иван Кузин</h1>
-          <div class="title__occupation">
-            Опытный web-разработчик
-          </div>
-        </div>
+    .page__body {
+      margin-bottom: 50px;
+    }
+
+    .page__footer {
+      text-align: center;
+      font-weight: 500;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <div class="page__header">
+      <div class="photo">
+        <img src="photo.jpg" alt="here we are" />
       </div>
-      <div class="page__body">
-        <p>
-          Привет! Меня зовут Иван, я web-программист с трехлетним стажем.
-          Разрабатываю сайты разной сложности: от лендингов до
-          интернет-магазинов. Также пишу javascript-плагины и полезные
-          приложения.
-        </p>
-        <p>Вот краткий перечень моих умений:</p>
-        <ul>
-          <li>Владею php и javascript</li>
-          <li>Умею верстать на html и css</li>
-          <li>Работаю с MySQL</li>
-          <li>Имею большой опыт работы с Wordpress, Bitrix и Laravel</li>
-          <li>Пользуюсь Git</li>
-          <li>Администрирую linux</li>
-        </ul>
-      </div>
-      <div class="page__footer">
-        Со мной можно связаться по электронной почте
-        <a href="mailto:corruptsouls@gmail.com">corruptsouls@gmail.com</a>
+      <div class="title">
+        <h1>Иван Кузин</h1>
+        <div class="title__occupation">
+          Опытный web-разработчик
+        </div>
       </div>
     </div>
-  </body>
+    <div class="page__body">
+      <p>
+        Привет! Меня зовут Иван, я web-программист с трехлетним стажем.
+        Разрабатываю сайты разной сложности: от лендингов до
+        интернет-магазинов. Также пишу javascript-плагины и полезные
+        приложения.
+      </p>
+      <p>Вот краткий перечень моих умений:</p>
+      <ul>
+        <li>Владею php и javascript</li>
+        <li>Умею верстать на html и css</li>
+        <li>Работаю с MySQL</li>
+        <li>Имею большой опыт работы с Wordpress, Bitrix и Laravel</li>
+        <li>Пользуюсь Git</li>
+        <li>Администрирую linux</li>
+      </ul>
+    </div>
+    <div class="page__footer">
+      Со мной можно связаться по электронной почте
+      <a href="mailto:corruptsouls@gmail.com">corruptsouls@gmail.com</a>
+    </div>
+  </div>
+</body>
+
 </html>
